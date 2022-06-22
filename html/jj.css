@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+.menu-bar{
+    background-color: black;
+}
+.nav-link{
+    text-decoration: none;
+    background: linear-gradient(to right, #aa89f1, #53d2f4,white 90%);
+    -webkit-text-fill-color: transparent;  /* used to make the text transparent so the background colour is the basis of text color */
+    -webkit-background-clip: text;  /*clips the transparent part to text*/
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: -5px;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+.nav-link:hover{
+    background: gold;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip:text;
+}
+.a1{
+    text-decoration: none;
+    background: linear-gradient(to right, #aa89f1, #53d2f4,white 80%);
+    -webkit-text-fill-color: transparent;  /* used to make the text transparent so the background colour is the basis of text color */
+    -webkit-background-clip: text;  /*clips the transparent part to text*/
+    font-size: 20px;
+    font-weight: 600;
+}
+.a1:hover{
+    background: white;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+#button{
+    position: relative;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 2);
+    border: 2px solid #aa89f1;
+    padding: 2px 15px;
+}
+#button1{
+    position: relative;
+    margin-right: -80px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 2);
+    border: 2px solid #aa89f1;
+    padding: 2px 15px;
+    border-radius: 50px;
+}
+#button:hover,#button1:hover{
+    background-color: #aa89f1;
+}
+.navbar-nav{
+    margin-right: 100px;
+}
+.menu-bar .navbar-toggler{
+    padding-right: -20px;
+    outline: none;
+    border: none;
+}
+
+.navbar .fa{
+    color: white;
+    font-size: 26px;
+}
+
+@media only screen and (max-width:1000px){
+    .nav-link:hover{
+        border-bottom: none;
+    }
+}
