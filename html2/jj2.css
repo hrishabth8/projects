@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500;600;700&family=Crete+Round:ital@0;1&family=Fascinate&family=Gugi&family=Lobster&family=Nova+Round&family=Pacifico&family=Potta+One&family=Varela+Round&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    height: 100vh;
+    max-width: 100%;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.menu-bar{
+    background-color: #2f3c46;
+    height: 60px;
+}
+
+.nav-link{
+    text-decoration: none;
+    background: white;
+    -webkit-text-fill-color: transparent;  /* used to make the text transparent so the background colour is the basis of text color */
+    -webkit-background-clip: text;  /*clips the transparent part to text*/
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: -3px;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+
+.nav-link:hover{
+    background: #53d2f4;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip:text;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.a1:hover{
+    background: black;
+    background-color: white;
+}
+#button{
+    margin-top: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    background: #0052ff;
+    border: 2px solid #0052ff;
+    padding: 2px 15px;
+}
+#button1{
+    margin-top: 4px;
+    margin-right: -80px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    background: #0052ff;
+    border: 2px solid #0052ff;
+    padding: 2px 15px;
+    border-radius: 50px;
+}
+#button:hover,#button1:hover{
+    background-color: white;
+}
+.navbar-nav{
+    margin-right: 100px;
+}
+.menu-bar .navbar-toggler{
+    padding-right: -20px;
+    outline: none;
+    border: none;
+}
+
+.navbar .fa{
+    color: white;
+    font-size: 26px;
+}
+
+@media only screen and (max-width:1000px){
+    .nav-link:hover{
+        border-bottom: none;
+    }
+}
+
+#phoneimg{
+    margin-left: 60%;
+}
+
+.texts{
+    color: black;
+}
+#linkimg{
+    height: 30px;
+    width: 30px;
+    margin-top: -70%;
+    margin-left: 10%;
+}
+#jump{
+    position: absolute;
+    color: #0052ff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: -500px;
+    padding-left: 13%;
+}
+
+#jump:hover{
+    text-decoration: underline;
+}
+.desh{
+    font-family: 'Gugi', cursive;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 110%;
+    margin-top: -33%;
+    margin-left: 10%;
+}
+
+.des{
+    padding-top: 10px;
+    font-family: 'Gugi', cursive;
+    margin-left: 10%;
+    font-size: 22px;
+}
+
+#mail{
+    border: 2px solid grey;
+    width:274px; 
+    height: 66px; 
+    margin-left: 10%;
+}
+#button3{
+    font-family: 'Gugi', cursive;
+    color: white;
+    margin-left: 1%;
+    border: none;
+    height: 68px;
+    width: 188px;
+    border-radius: 10px;
+    background-color: #0052ff;
+}
+
+.pg2{
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0052ff;
+    max-width: 100%;
+}
+
+.row1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -50px;
+} 
+
+.row2{
+    position: absolute;
+    margin-top: -560px;
+    margin-left: 400px;
+}
+
+.row3{
+    position: absolute;
+    margin-top: -560px;
+    margin-left: 800px;
+}
+.cards{
+    overflow: hidden;
+    border-radius: 50px;
+    width: 225px;    
+    height: 256px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: -570px;
+}
+
+.cards1{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    width: 235px;    
+    height: 266px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: -390px;
+}
+
+.svgs{
+    width: 130px;
+    height: 130px;
+    margin-top: 45%;
+    margin-left: 21%;
+
+}
+
+div.cards:hover .svgs{ /*used to change the content within the given div ... so here when hovered over div the svgs is changed*/
+    filter: blur(5px); /* is used to chaang image propperties like brightness etc*/
+    /* i used the website "https://codepen.io/sosuke/pen/Pjoqqp" to find the right properties for the color i wanted */
+}
+div.cards1:hover .svgs{ 
+    filter: blur(5px); 
+}
+
+.cardsh3{
+    font-family: nova round;
+    text-decoration: underline;
+    color: white;
+    margin-top: -205px;
+    text-align: center;
+}
+
+.cardp{
+    position: relative;
+    font-family: 'Nova Round', cursive;
+    color: white;
+    opacity: 0;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+div.cards1:hover .cardp{
+    opacity: 1;
+}
+div.cards:hover .cardp{
+    opacity: 1;
+}
+
+#pg3{
+    max-width: 100%;
+    height: 100vh;
+    background-color: ;
+}
